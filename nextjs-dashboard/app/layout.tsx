@@ -1,5 +1,5 @@
-import '@/app/ui/global.css'
-import { inter} from './ui/fonts';
+import '@/app/ui/global.css';
+import { inter } from './ui/fonts';
 
 export default function RootLayout({
   children,
@@ -7,9 +7,8 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="en">
-      <body className={`${inter.className} antialiased`}
-      >{children}</body>
+    <html lang="ko">
+      <body className={`${inter.className} antialiased`}>{children}</body>
     </html>
   );
 }
